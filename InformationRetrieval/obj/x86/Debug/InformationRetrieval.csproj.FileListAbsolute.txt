@@ -1,0 +1,12 @@
+/Users/User/Documents/ITIS /Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/bin/Debug/InformationRetrieval.exe
+/Users/User/Documents/ITIS /Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/bin/Debug/InformationRetrieval.pdb
+/Users/User/Documents/ITIS /Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/bin/Debug/HtmlAgilityPack.dll
+/Users/User/Documents/ITIS /Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/bin/Debug/HtmlAgilityPack.pdb
+/Users/User/Documents/ITIS /Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/bin/Debug/HtmlAgilityPack.xml
+/Users/User/Documents/ITIS /Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/obj/x86/Debug/InformationRetrieval.csprojResolveAssemblyReference.cache
+/Users/User/Documents/ITIS /Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/obj/x86/Debug/InformationRetrieval.csproj.CoreCompileInputs.cache
+/Users/User/Documents/ITIS /Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/obj/x86/Debug/InformationRetrieval.exe
+/Users/User/Documents/ITIS /Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/obj/x86/Debug/InformationRetrieval.pdb
+/Users/User/Documents/ITIS /Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/bin/Debug/Newtonsoft.Json.dll
+/Users/User/Documents/ITIS /Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/bin/Debug/YandexMystem.Wrapper.dll
+/Users/User/Documents/ITIS /Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/bin/Debug/Newtonsoft.Json.xml

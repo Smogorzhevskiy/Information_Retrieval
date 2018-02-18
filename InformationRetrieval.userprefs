@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{87D7F08A-F2B0-4B0F-8C6B-AD0C65263D3F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InformationRetrieval/Article.cs">
+    <Files>
+      <File FileName="InformationRetrieval/Program.cs" Line="22" Column="34" />
+      <File FileName="InformationRetrieval/DocumentData.cs" Line="67" Column="159" />
+      <File FileName="InformationRetrieval/Issue.cs" Line="20" Column="60" />
+      <File FileName="InformationRetrieval/Article.cs" Line="19" Column="54" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.InformationRetrieval PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
