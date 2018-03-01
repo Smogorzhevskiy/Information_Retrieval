@@ -102,7 +102,7 @@ namespace InformationRetrieval
 
                 // добавление issue и сохранение документа
                 XDocument saveDoc = new XDocument(issue.GetIssue());
-                File.WriteAllText(@"/Users/User/Documents/itis/Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/FilesXML/XML_For_HomeWork2.xml", saveDoc.ToString());
+                File.WriteAllText(@"/Users/User/Documents/itis/Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/FilesXML/XML_For_HomeWork2.1.xml", saveDoc.ToString());
 
                 Console.WriteLine("Succsess");
 

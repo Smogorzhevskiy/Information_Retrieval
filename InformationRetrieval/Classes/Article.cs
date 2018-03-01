@@ -34,8 +34,7 @@ namespace InformationRetrieval
         private string Annotation(HtmlDocument doc)
         {
             string annotation = null;
-            // чтобы получить аннотацию, приходится брать весь текст до ключевых слов, т.к. между текстом попадаются ноды с формулами  
-            HtmlNodeCollection annotations = doc.DocumentNode.SelectNodes("//table//text()[preceding-sibling::b[contains(text(), 'Аннотация')] and following-sibling::b[contains(text(), 'Ключевые')]]");
+            HtmlNodeCollection annotations = doc.DocumentNode.SelectNodes("//b[contains(text(),'Аннотация')]/following::text()[preceding::b[1][contains(text(),'Аннотация')] and not(parent::b)]");
             for (int i = 0; i < annotations.Count; i++)
             {
                 // пропуск нормированных пробелов и тире
