@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{87D7F08A-F2B0-4B0F-8C6B-AD0C65263D3F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="InformationRetrieval/Classes/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InformationRetrieval/Classes/Article.cs">
     <Files>
-      <File FileName="InformationRetrieval/Classes/Article.cs" Line="37" Column="1" />
+      <File FileName="InformationRetrieval/Classes/Article.cs" Line="148" Column="155" />
       <File FileName="InformationRetrieval/Classes/DocumentData.cs" Line="76" Column="14" />
       <File FileName="InformationRetrieval/Classes/Issue.cs" Line="12" Column="13" />
       <File FileName="InformationRetrieval/Classes/Program.cs" Line="5" Column="18" />
+      <File FileName="InformationRetrieval/Classes/MyStem.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

@@ -49,6 +49,7 @@
     <Compile Include="Classes\DocumentData.cs" />
     <Compile Include="Classes\Issue.cs" />
     <Compile Include="Classes\Program.cs" />
+    <Compile Include="Classes\MyStem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

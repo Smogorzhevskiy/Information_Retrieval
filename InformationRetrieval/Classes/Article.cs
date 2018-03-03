@@ -6,6 +6,7 @@ using System.Net;
 using System.Text;
 using System.Xml.Linq;
 using HtmlAgilityPack;
+using InformationRetrieval.Classes;
 using Iveonik.Stemmers;
 
 namespace InformationRetrieval
@@ -15,15 +16,19 @@ namespace InformationRetrieval
 
         string _url;
         string _title;
+        string _titlePorter;
+        string _titleMyStem;
         string _annotation;
         string _annotationPorter;
         string _annotationMyStem;
-        string _keywords;
+        string[] _keywords;
 
         public Article(HtmlNode node, string url, HtmlDocument doc)
         {
             _url = url;
             _title = node.InnerText.Replace("&nbsp;", " ").Replace("ndash;", "-");
+            _titlePorter = TitleForPorter(_title);
+            _titleMyStem = TitleForMyStem(_title);
             _annotation = Annotation(doc);
             _annotationPorter = AnnotationForPorter(_annotation);
             _annotationMyStem = AnnotationForMyStem(_annotation);
@@ -62,45 +67,39 @@ namespace InformationRetrieval
         private string AnnotationForMyStem(string annotation)
         {
 
-            string stem = MyStem(annotation);
+            MyStem stemmer = new MyStem();
+            string stem = stemmer.Stemer(annotation);
             return stem;
         }
 
-        public static string MyStem(string _original)
+        private string TitleForPorter(string title)
         {
-            string directory = "/Users/User/Documents/itis/Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/SupportFiles";
-            string result = "";
 
-            File.WriteAllText(directory + "/input.txt", _original, Encoding.GetEncoding("Utf-8"));
-            Console.WriteLine(_original);
-            Process process = new Process();
-            process.StartInfo.FileName = "/Applications/Utilities/Terminal.app";
-            // исполняющий скрипт для вызова mystem
-            process.StartInfo.Arguments = directory + "/startStem.command";
 
-            //TODO новые окна все равно создаются
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
-            process.StartInfo.CreateNoWindow = true;
-            process.Start();
-            process.WaitForExit();
-            process.Close();
-            //приходится стопить программу, иначе запрос не успевает отработать и в результате значение нынешнего нода присвоится следующему и так по цепочке
-            System.Threading.Thread.Sleep(1000);
-            string[] lines = File.ReadAllLines(directory + "/output.txt");
+            RussianStemmer stemmer = new RussianStemmer();
 
-            for (int i = 0; i < lines.Length; i++)
+            string titlePorter = null;
+            foreach (string word in title.Split(' ', ',', '.'))
             {
-                result += lines[i].Replace("{", "").Replace("}", " ");
-
+                titlePorter += stemmer.Stem(word) + " ";
             }
+            return titlePorter;
 
-            return result;
         }
 
-        private string Keywords(HtmlDocument doc)
+        private string TitleForMyStem(string title)
+        {
+            MyStem stemmer = new MyStem();
+            string stem = stemmer.Stemer(title);
+            return stem;
+        }
+
+
+        private string[] Keywords(HtmlDocument doc)
         {
             string keywords = doc.DocumentNode.SelectSingleNode("//b[contains(.,'Ключевые')]/following-sibling::i").InnerText.Replace("&nbsp;", " ").Replace("ndash;", "-").Replace("&", "");
-            return keywords;
+            string[] words = keywords.Split(',');
+            return words;
 
         }
 
@@ -111,21 +110,26 @@ namespace InformationRetrieval
 
         private XElement GetTitle()
         {
-            return new XElement("title", _title);
+            XElement title = new XElement("title");
+            title.Add(new XElement("title_origin", _title), new XElement("title_porter", _titlePorter), new XElement("title_mystem", _titleMyStem));
+            return title;
         }
 
         private XElement GetAnnotation()
         {
-            XAttribute origin = new XAttribute("origin", _annotation);
-            XAttribute porter = new XAttribute("porter", _annotationPorter);
-            XAttribute mystem = new XAttribute("mystem", _annotationMyStem);
-
-            return new XElement("annotation", origin, porter, mystem);
+            XElement annotation = new XElement("annotation");
+            annotation.Add(new XElement("annotation_origin", _annotation), new XElement("annotation_porter", _annotationPorter), new XElement("annotation_mystem", _annotationMyStem));
+            return annotation;
         }
 
         private XElement GetKeywords()
         {
-            return new XElement("keywords", _keywords);
+            XElement keywords = new XElement("keywords");
+            for (int i = 0; i < _keywords.Length; i++)
+            {
+                keywords.Add(new XElement("keyword", _keywords[i].Replace(".", "")));
+            }
+            return keywords;
         }
 
         public XElement GetArticle()
