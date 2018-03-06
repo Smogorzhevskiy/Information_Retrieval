@@ -37,6 +37,7 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -50,6 +51,7 @@
     <Compile Include="Classes\Issue.cs" />
     <Compile Include="Classes\Program.cs" />
     <Compile Include="Classes\MyStem.cs" />
+    <Compile Include="Classes\InvertedIndex.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

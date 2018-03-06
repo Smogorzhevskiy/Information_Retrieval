@@ -43,7 +43,7 @@ namespace InformationRetrieval
             for (int i = 0; i < annotations.Count; i++)
             {
                 // пропуск нормированных пробелов и тире
-                annotation += annotations[i].InnerText.Replace("&nbsp;", " ").Replace("ndash;", "-").Replace("&", "");
+                annotation += annotations[i].InnerText.Trim().Replace("&nbsp;", "").Replace("ndash;", "").Replace("&", "").Replace("[ ]+", " ");
             }
 
             return annotation.Trim();
@@ -58,7 +58,10 @@ namespace InformationRetrieval
             string annotationPorter = null;
             foreach (string word in annotation.Split(' ', ',', '.'))
             {
-                annotationPorter += stemmer.Stem(word) + " ";
+                if (word != "")
+                {
+                    annotationPorter += stemmer.Stem(word) + " ";
+                }
             }
             return annotationPorter;
 
@@ -111,14 +114,14 @@ namespace InformationRetrieval
         private XElement GetTitle()
         {
             XElement title = new XElement("title");
-            title.Add(new XElement("title_origin", _title), new XElement("title_porter", _titlePorter), new XElement("title_mystem", _titleMyStem));
+            title.Add(new XElement("origin", _title), new XElement("porter", _titlePorter), new XElement("mystem", _titleMyStem));
             return title;
         }
 
         private XElement GetAnnotation()
         {
             XElement annotation = new XElement("annotation");
-            annotation.Add(new XElement("annotation_origin", _annotation), new XElement("annotation_porter", _annotationPorter), new XElement("annotation_mystem", _annotationMyStem));
+            annotation.Add(new XElement("origin", _annotation), new XElement("porter", _annotationPorter), new XElement("mystem", _annotationMyStem));
             return annotation;
         }
 

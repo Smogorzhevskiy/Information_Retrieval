@@ -6,6 +6,8 @@ using System.Net;
 using System.Text;
 using System.Xml.Linq;
 using HtmlAgilityPack;
+using InformationRetrieval.Classes;
+
 namespace InformationRetrieval
 {
     class MainClass
@@ -21,6 +23,17 @@ namespace InformationRetrieval
 
             DocumentData document = new DocumentData(_url);
             document.CreateXMLDoc();
+
+            document.GetTextFromXML("porter");
+            document.GetTextFromXML("mystem");
+
+            InvertedIndex invertedIndex = new InvertedIndex();
+
+            invertedIndex.CreateInvertedIndex();
+
+            document.XMLForInvertedIndex(invertedIndex.GetInvertedIndex());
+
+
 
         }
 

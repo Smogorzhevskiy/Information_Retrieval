@@ -1,0 +1,1895 @@
+<documents>
+  <doc id="1">
+    <termin name="о" quantity="1">
+      <location>
+        <loc>0</loc>
+      </location>
+    </termin>
+    <termin name="из" quantity="3">
+      <location>
+        <loc>4</loc>
+        <loc>16</loc>
+        <loc>268</loc>
+      </location>
+    </termin>
+    <termin name="псевдобулев" quantity="2">
+      <location>
+        <loc>6</loc>
+        <loc>18</loc>
+      </location>
+    </termin>
+    <termin name="в" quantity="5">
+      <location>
+        <loc>8</loc>
+        <loc>129</loc>
+        <loc>131</loc>
+        <loc>200</loc>
+        <loc>247</loc>
+      </location>
+    </termin>
+    <termin name="и" quantity="6">
+      <location>
+        <loc>12</loc>
+        <loc>43</loc>
+        <loc>71</loc>
+        <loc>74</loc>
+        <loc>109</loc>
+        <loc>189</loc>
+      </location>
+    </termin>
+    <termin name="для" quantity="6">
+      <location>
+        <loc>20</loc>
+        <loc>50</loc>
+        <loc>81</loc>
+        <loc>90</loc>
+        <loc>227</loc>
+        <loc>251</loc>
+      </location>
+    </termin>
+    <termin name="от" quantity="2">
+      <location>
+        <loc>36</loc>
+        <loc>53</loc>
+      </location>
+    </termin>
+    <termin name="булев" quantity="2">
+      <location>
+        <loc>41</loc>
+        <loc>51</loc>
+      </location>
+    </termin>
+    <termin name="их" quantity="2">
+      <location>
+        <loc>44</loc>
+        <loc>174</loc>
+      </location>
+    </termin>
+    <termin name="спектр" quantity="2">
+      <location>
+        <loc>45</loc>
+        <loc>67</loc>
+      </location>
+    </termin>
+    <termin name="на" quantity="2">
+      <location>
+        <loc>59</loc>
+        <loc>259</loc>
+      </location>
+    </termin>
+    <termin name="при" quantity="4">
+      <location>
+        <loc>76</loc>
+        <loc>115</loc>
+        <loc>193</loc>
+        <loc>272</loc>
+      </location>
+    </termin>
+    <termin name="к" quantity="1">
+      <location>
+        <loc>87</loc>
+      </location>
+    </termin>
+    <termin name="пуассон" quantity="2">
+      <location>
+        <loc>89</loc>
+        <loc>122</loc>
+      </location>
+    </termin>
+    <termin name="пусть" quantity="1">
+      <location>
+        <loc>95</loc>
+      </location>
+    </termin>
+    <termin name="отображение" quantity="1">
+      <location>
+        <loc>97</loc>
+      </location>
+    </termin>
+    <termin name="пространство" quantity="1">
+      <location>
+        <loc>104</loc>
+      </location>
+    </termin>
+    <termin name="над" quantity="2">
+      <location>
+        <loc>100</loc>
+        <loc>105</loc>
+      </location>
+    </termin>
+    <termin name="же" quantity="2">
+      <location>
+        <loc>107</loc>
+        <loc>225</loc>
+      </location>
+    </termin>
+    <termin name="цилиндр" quantity="2">
+      <location>
+        <loc>130</loc>
+        <loc>154</loc>
+      </location>
+    </termin>
+    <termin name="вопрос" quantity="1">
+      <location>
+        <loc>134</loc>
+      </location>
+    </termin>
+    <termin name="вриманов" quantity="1">
+      <location>
+        <loc>143</loc>
+      </location>
+    </termin>
+    <termin name="втермин" quantity="1">
+      <location>
+        <loc>176</loc>
+      </location>
+    </termin>
+    <termin name="класс" quantity="3">
+      <location>
+        <loc>184</loc>
+        <loc>216</loc>
+        <loc>234</loc>
+      </location>
+    </termin>
+    <termin name="метод" quantity="2">
+      <location>
+        <loc>185</loc>
+        <loc>276</loc>
+      </location>
+    </termin>
+    <termin name="гомоморфизм" quantity="1">
+      <location>
+        <loc>190</loc>
+      </location>
+    </termin>
+    <termin name="граф" quantity="3">
+      <location>
+        <loc>192</loc>
+        <loc>208</loc>
+        <loc>228</loc>
+      </location>
+    </termin>
+    <termin name="поиск" quantity="2">
+      <location>
+        <loc>194</loc>
+        <loc>221</loc>
+      </location>
+    </termin>
+    <termin name="клик" quantity="2">
+      <location>
+        <loc>199</loc>
+        <loc>214</loc>
+      </location>
+    </termin>
+    <termin name="подграф" quantity="3">
+      <location>
+        <loc>213</loc>
+        <loc>217</loc>
+        <loc>235</loc>
+      </location>
+    </termin>
+    <termin name="что" quantity="1">
+      <location>
+        <loc>232</loc>
+      </location>
+    </termin>
+    <termin name="по" quantity="1">
+      <location>
+        <loc>239</loc>
+      </location>
+    </termin>
+    <termin name="ккласс" quantity="1">
+      <location>
+        <loc>241</loc>
+      </location>
+    </termin>
+    <termin name="набор" quantity="1">
+      <location>
+        <loc>267</loc>
+      </location>
+    </termin>
+    <termin name="ченастейн" quantity="1">
+      <location>
+        <loc>277</loc>
+      </location>
+    </termin>
+    <termin name="структур" quantity="3">
+      <location>
+        <loc>1</loc>
+        <loc>160</loc>
+        <loc>171</loc>
+      </location>
+    </termin>
+    <termin name="решен" quantity="4">
+      <location>
+        <loc>2</loc>
+        <loc>34</loc>
+        <loc>92</loc>
+        <loc>118</loc>
+      </location>
+    </termin>
+    <termin name="систем" quantity="3">
+      <location>
+        <loc>3</loc>
+        <loc>15</loc>
+        <loc>119</loc>
+      </location>
+    </termin>
+    <termin name="линейн" quantity="4">
+      <location>
+        <loc>5</loc>
+        <loc>17</loc>
+        <loc>159</loc>
+        <loc>170</loc>
+      </location>
+    </termin>
+    <termin name="неравенств" quantity="2">
+      <location>
+        <loc>7</loc>
+        <loc>19</loc>
+      </location>
+    </termin>
+    <termin name="работ" quantity="1">
+      <location>
+        <loc>9</loc>
+      </location>
+    </termin>
+    <termin name="рассматрива" quantity="4">
+      <location>
+        <loc>10</loc>
+        <loc>133</loc>
+        <loc>166</loc>
+        <loc>202</loc>
+      </location>
+    </termin>
+    <termin name="случайн" quantity="6">
+      <location>
+        <loc>11</loc>
+        <loc>21</loc>
+        <loc>69</loc>
+        <loc>93</loc>
+        <loc>96</loc>
+        <loc>254</loc>
+      </location>
+    </termin>
+    <termin name="заведом" quantity="2">
+      <location>
+        <loc>13</loc>
+        <loc>28</loc>
+      </location>
+    </termin>
+    <termin name="совместн" quantity="3">
+      <location>
+        <loc>14</loc>
+        <loc>26</loc>
+        <loc>29</loc>
+      </location>
+    </termin>
+    <termin name="сист" quantity="2">
+      <location>
+        <loc>22</loc>
+        <loc>30</loc>
+      </location>
+    </termin>
+    <termin name="найд" quantity="2">
+      <location>
+        <loc>23</loc>
+        <loc>31</loc>
+      </location>
+    </termin>
+    <termin name="алгебраическ" quantity="1">
+      <location>
+        <loc>24</loc>
+      </location>
+    </termin>
+    <termin name="услов" quantity="3">
+      <location>
+        <loc>25</loc>
+        <loc>85</loc>
+        <loc>113</loc>
+      </location>
+    </termin>
+    <termin name="адл" quantity="1">
+      <location>
+        <loc>27</loc>
+      </location>
+    </termin>
+    <termin name="средн" quantity="1">
+      <location>
+        <loc>32</loc>
+      </location>
+    </termin>
+    <termin name="числ" quantity="4">
+      <location>
+        <loc>33</loc>
+        <loc>117</loc>
+        <loc>198</loc>
+        <loc>210</loc>
+      </location>
+    </termin>
+    <termin name="отлича" quantity="1">
+      <location>
+        <loc>35</loc>
+      </location>
+    </termin>
+    <termin name="истин" quantity="1">
+      <location>
+        <loc>37</loc>
+      </location>
+    </termin>
+    <termin name="вдвух" quantity="1">
+      <location>
+        <loc>38</loc>
+      </location>
+    </termin>
+    <termin name="координат" quantity="1">
+      <location>
+        <loc>39</loc>
+      </location>
+    </termin>
+    <termin name="стохастическ" quantity="1">
+      <location>
+        <loc>40</loc>
+      </location>
+    </termin>
+    <termin name="функц" quantity="5">
+      <location>
+        <loc>42</loc>
+        <loc>52</loc>
+        <loc>63</loc>
+        <loc>66</loc>
+        <loc>70</loc>
+      </location>
+    </termin>
+    <termin name="предлага" quantity="2">
+      <location>
+        <loc>46</loc>
+        <loc>242</loc>
+      </location>
+    </termin>
+    <termin name="общ" quantity="2">
+      <location>
+        <loc>47</loc>
+        <loc>238</loc>
+      </location>
+    </termin>
+    <termin name="вероятностн" quantity="2">
+      <location>
+        <loc>48</loc>
+        <loc>57</loc>
+      </location>
+    </termin>
+    <termin name="модел" quantity="1">
+      <location>
+        <loc>49</loc>
+      </location>
+    </termin>
+    <termin name="перемен" quantity="1">
+      <location>
+        <loc>54</loc>
+      </location>
+    </termin>
+    <termin name="задава" quantity="1">
+      <location>
+        <loc>55</loc>
+      </location>
+    </termin>
+    <termin name="произвольн" quantity="1">
+      <location>
+        <loc>56</loc>
+      </location>
+    </termin>
+    <termin name="мер" quantity="2">
+      <location>
+        <loc>58</loc>
+        <loc>84</loc>
+      </location>
+    </termin>
+    <termin name="множеств" quantity="3">
+      <location>
+        <loc>60</loc>
+        <loc>126</loc>
+        <loc>150</loc>
+      </location>
+    </termin>
+    <termin name="всех" quantity="2">
+      <location>
+        <loc>61</loc>
+        <loc>206</loc>
+      </location>
+    </termin>
+    <termin name="так" quantity="1">
+      <location>
+        <loc>62</loc>
+      </location>
+    </termin>
+    <termin name="вывод" quantity="1">
+      <location>
+        <loc>64</loc>
+      </location>
+    </termin>
+    <termin name="характеристическ" quantity="1">
+      <location>
+        <loc>65</loc>
+      </location>
+    </termin>
+    <termin name="уолш" quantity="1">
+      <location>
+        <loc>68</loc>
+      </location>
+    </termin>
+    <termin name="наход" quantity="1">
+      <location>
+        <loc>72</loc>
+      </location>
+    </termin>
+    <termin name="точн" quantity="1">
+      <location>
+        <loc>73</loc>
+      </location>
+    </termin>
+    <termin name="асимптотическ" quantity="1">
+      <location>
+        <loc>75</loc>
+      </location>
+    </termin>
+    <termin name="распределен" quantity="5">
+      <location>
+        <loc>77</loc>
+        <loc>88</loc>
+        <loc>116</loc>
+        <loc>258</loc>
+        <loc>265</loc>
+      </location>
+    </termin>
+    <termin name="некотор" quantity="1">
+      <location>
+        <loc>78</loc>
+      </location>
+    </termin>
+    <termin name="ег" quantity="2">
+      <location>
+        <loc>79</loc>
+        <loc>211</loc>
+      </location>
+    </termin>
+    <termin name="характеристик" quantity="1">
+      <location>
+        <loc>80</loc>
+      </location>
+    </termin>
+    <termin name="случ" quantity="1">
+      <location>
+        <loc>82</loc>
+      </location>
+    </termin>
+    <termin name="параметрическ" quantity="1">
+      <location>
+        <loc>83</loc>
+      </location>
+    </termin>
+    <termin name="сходим" quantity="2">
+      <location>
+        <loc>86</loc>
+        <loc>114</loc>
+      </location>
+    </termin>
+    <termin name="чисел" quantity="4">
+      <location>
+        <loc>91</loc>
+        <loc>128</loc>
+        <loc>152</loc>
+        <loc>266</loc>
+      </location>
+    </termin>
+    <termin name="включен" quantity="1">
+      <location>
+        <loc>94</loc>
+      </location>
+    </termin>
+    <termin name="-мерн" quantity="2">
+      <location>
+        <loc>98</loc>
+        <loc>103</loc>
+      </location>
+    </termin>
+    <termin name="пространства" quantity="1">
+      <location>
+        <loc>99</loc>
+      </location>
+    </termin>
+    <termin name="конечн" quantity="1">
+      <location>
+        <loc>101</loc>
+      </location>
+    </termin>
+    <termin name="полем" quantity="1">
+      <location>
+        <loc>102</loc>
+      </location>
+    </termin>
+    <termin name="тем" quantity="1">
+      <location>
+        <loc>106</loc>
+      </location>
+    </termin>
+    <termin name="пол" quantity="1">
+      <location>
+        <loc>108</loc>
+      </location>
+    </termin>
+    <termin name="вывед" quantity="1">
+      <location>
+        <loc>110</loc>
+      </location>
+    </termin>
+    <termin name="нов" quantity="1">
+      <location>
+        <loc>111</loc>
+      </location>
+    </termin>
+    <termin name="достаточн" quantity="1">
+      <location>
+        <loc>112</loc>
+      </location>
+    </termin>
+    <termin name="включений" quantity="1">
+      <location>
+        <loc>120</loc>
+      </location>
+    </termin>
+    <termin name="краспределен" quantity="1">
+      <location>
+        <loc>121</loc>
+      </location>
+    </termin>
+    <termin name="метрическ" quantity="1">
+      <location>
+        <loc>123</loc>
+      </location>
+    </termin>
+    <termin name="свойств" quantity="1">
+      <location>
+        <loc>124</loc>
+      </location>
+    </termin>
+    <termin name="вложен" quantity="3">
+      <location>
+        <loc>125</loc>
+        <loc>139</loc>
+        <loc>149</loc>
+      </location>
+    </termin>
+    <termin name="цел" quantity="2">
+      <location>
+        <loc>127</loc>
+        <loc>151</loc>
+      </location>
+    </termin>
+    <termin name="стат" quantity="2">
+      <location>
+        <loc>132</loc>
+        <loc>201</loc>
+      </location>
+    </termin>
+    <termin name="связа" quantity="1">
+      <location>
+        <loc>135</loc>
+      </location>
+    </termin>
+    <termin name="соднородн" quantity="1">
+      <location>
+        <loc>136</loc>
+      </location>
+    </termin>
+    <termin name="равномерн" quantity="1">
+      <location>
+        <loc>137</loc>
+      </location>
+    </termin>
+    <termin name="дискретн" quantity="2">
+      <location>
+        <loc>138</loc>
+        <loc>264</loc>
+      </location>
+    </termin>
+    <termin name="конечнопорождён" quantity="1">
+      <location>
+        <loc>140</loc>
+      </location>
+    </termin>
+    <termin name="абелев" quantity="1">
+      <location>
+        <loc>141</loc>
+      </location>
+    </termin>
+    <termin name="групп" quantity="1">
+      <location>
+        <loc>142</loc>
+      </location>
+    </termin>
+    <termin name="пространств" quantity="1">
+      <location>
+        <loc>144</loc>
+      </location>
+    </termin>
+    <termin name="дан" quantity="1">
+      <location>
+        <loc>145</loc>
+      </location>
+    </termin>
+    <termin name="исчерпыва" quantity="1">
+      <location>
+        <loc>146</loc>
+      </location>
+    </termin>
+    <termin name="классификац" quantity="1">
+      <location>
+        <loc>147</loc>
+      </location>
+    </termin>
+    <termin name="гомоморфн" quantity="1">
+      <location>
+        <loc>148</loc>
+      </location>
+    </termin>
+    <termin name="вдвумерн" quantity="1">
+      <location>
+        <loc>153</loc>
+      </location>
+    </termin>
+    <termin name="факторструктур" quantity="2">
+      <location>
+        <loc>155</loc>
+        <loc>167</loc>
+      </location>
+    </termin>
+    <termin name="преобразован" quantity="4">
+      <location>
+        <loc>156</loc>
+        <loc>164</loc>
+        <loc>175</loc>
+        <loc>180</loc>
+      </location>
+    </termin>
+    <termin name="налич" quantity="1">
+      <location>
+        <loc>157</loc>
+      </location>
+    </termin>
+    <termin name="нетривиальн" quantity="1">
+      <location>
+        <loc>158</loc>
+      </location>
+    </termin>
+    <termin name="явля" quantity="3">
+      <location>
+        <loc>161</loc>
+        <loc>168</loc>
+        <loc>236</loc>
+      </location>
+    </termin>
+    <termin name="слабост" quantity="1">
+      <location>
+        <loc>162</loc>
+      </location>
+    </termin>
+    <termin name="криптографическ" quantity="2">
+      <location>
+        <loc>163</loc>
+        <loc>186</loc>
+      </location>
+    </termin>
+    <termin name="вработ" quantity="1">
+      <location>
+        <loc>165</loc>
+      </location>
+    </termin>
+    <termin name="обобщен" quantity="1">
+      <location>
+        <loc>169</loc>
+      </location>
+    </termin>
+    <termin name="описа" quantity="2">
+      <location>
+        <loc>172</loc>
+        <loc>215</loc>
+      </location>
+    </termin>
+    <termin name="сохраня" quantity="1">
+      <location>
+        <loc>173</loc>
+      </location>
+    </termin>
+    <termin name="операц" quantity="1">
+      <location>
+        <loc>177</loc>
+      </location>
+    </termin>
+    <termin name="сплетен" quantity="1">
+      <location>
+        <loc>178</loc>
+      </location>
+    </termin>
+    <termin name="полугрупп" quantity="1">
+      <location>
+        <loc>179</loc>
+      </location>
+    </termin>
+    <termin name="установл" quantity="1">
+      <location>
+        <loc>181</loc>
+      </location>
+    </termin>
+    <termin name="связ" quantity="1">
+      <location>
+        <loc>182</loc>
+      </location>
+    </termin>
+    <termin name="двух" quantity="1">
+      <location>
+        <loc>183</loc>
+      </location>
+    </termin>
+    <termin name="анализа:" quantity="1">
+      <location>
+        <loc>187</loc>
+      </location>
+    </termin>
+    <termin name="разностн" quantity="1">
+      <location>
+        <loc>188</loc>
+      </location>
+    </termin>
+    <termin name="редукц" quantity="1">
+      <location>
+        <loc>191</loc>
+      </location>
+    </termin>
+    <termin name="реберн" quantity="1">
+      <location>
+        <loc>195</loc>
+      </location>
+    </termin>
+    <termin name="покрыт" quantity="3">
+      <location>
+        <loc>196</loc>
+        <loc>205</loc>
+        <loc>223</loc>
+      </location>
+    </termin>
+    <termin name="минимальн" quantity="2">
+      <location>
+        <loc>197</loc>
+        <loc>209</loc>
+      </location>
+    </termin>
+    <termin name="задач" quantity="3">
+      <location>
+        <loc>203</loc>
+        <loc>220</loc>
+        <loc>226</loc>
+      </location>
+    </termin>
+    <termin name="построен" quantity="1">
+      <location>
+        <loc>204</loc>
+      </location>
+    </termin>
+    <termin name="ребер" quantity="1">
+      <location>
+        <loc>207</loc>
+      </location>
+    </termin>
+    <termin name="полн" quantity="1">
+      <location>
+        <loc>212</loc>
+      </location>
+    </termin>
+    <termin name="позволя" quantity="1">
+      <location>
+        <loc>218</loc>
+      </location>
+    </termin>
+    <termin name="свод" quantity="1">
+      <location>
+        <loc>219</loc>
+      </location>
+    </termin>
+    <termin name="указа" quantity="1">
+      <location>
+        <loc>222</loc>
+      </location>
+    </termin>
+    <termin name="ктак" quantity="1">
+      <location>
+        <loc>224</loc>
+      </location>
+    </termin>
+    <termin name="меньш" quantity="1">
+      <location>
+        <loc>229</loc>
+      </location>
+    </termin>
+    <termin name="порядк" quantity="1">
+      <location>
+        <loc>230</loc>
+      </location>
+    </termin>
+    <termin name="показа" quantity="1">
+      <location>
+        <loc>231</loc>
+      </location>
+    </termin>
+    <termin name="эт" quantity="1">
+      <location>
+        <loc>233</loc>
+      </location>
+    </termin>
+    <termin name="бол" quantity="1">
+      <location>
+        <loc>237</loc>
+      </location>
+    </termin>
+    <termin name="отношен" quantity="1">
+      <location>
+        <loc>240</loc>
+      </location>
+    </termin>
+    <termin name="ран" quantity="1">
+      <location>
+        <loc>243</loc>
+      </location>
+    </termin>
+    <termin name="структурн" quantity="2">
+      <location>
+        <loc>244</loc>
+        <loc>269</loc>
+      </location>
+    </termin>
+    <termin name="эквивалентн" quantity="1">
+      <location>
+        <loc>245</loc>
+      </location>
+    </termin>
+    <termin name="цепочк" quantity="1">
+      <location>
+        <loc>246</loc>
+      </location>
+    </termin>
+    <termin name="равновероятн" quantity="2">
+      <location>
+        <loc>248</loc>
+        <loc>257</loc>
+      </location>
+    </termin>
+    <termin name="полиномиальн" quantity="1">
+      <location>
+        <loc>249</loc>
+      </location>
+    </termin>
+    <termin name="схем" quantity="1">
+      <location>
+        <loc>250</loc>
+      </location>
+    </termin>
+    <termin name="последовательности" quantity="1">
+      <location>
+        <loc>252</loc>
+      </location>
+    </termin>
+    <termin name="независим" quantity="1">
+      <location>
+        <loc>253</loc>
+      </location>
+    </termin>
+    <termin name="величин" quantity="1">
+      <location>
+        <loc>255</loc>
+      </location>
+    </termin>
+    <termin name="имеющ" quantity="1">
+      <location>
+        <loc>256</loc>
+      </location>
+    </termin>
+    <termin name="множестве" quantity="1">
+      <location>
+        <loc>260</loc>
+      </location>
+    </termin>
+    <termin name="получ" quantity="1">
+      <location>
+        <loc>261</loc>
+      </location>
+    </termin>
+    <termin name="описан" quantity="1">
+      <location>
+        <loc>262</loc>
+      </location>
+    </termin>
+    <termin name="предельн" quantity="1">
+      <location>
+        <loc>263</loc>
+      </location>
+    </termin>
+    <termin name="эквивалентных" quantity="1">
+      <location>
+        <loc>270</loc>
+      </location>
+    </termin>
+    <termin name="-цепочек" quantity="1">
+      <location>
+        <loc>271</loc>
+      </location>
+    </termin>
+    <termin name="n" quantity="1">
+      <location>
+        <loc>273</loc>
+      </location>
+    </termin>
+    <termin name="доказательств" quantity="1">
+      <location>
+        <loc>274</loc>
+      </location>
+    </termin>
+    <termin name="использ" quantity="1">
+      <location>
+        <loc>275</loc>
+      </location>
+    </termin>
+  </doc>
+  <doc id="2">
+    <termin name="о" quantity="1">
+      <location>
+        <loc>0</loc>
+      </location>
+    </termin>
+    <termin name="структура" quantity="3">
+      <location>
+        <loc>1</loc>
+        <loc>161</loc>
+        <loc>172</loc>
+      </location>
+    </termin>
+    <termin name="решение" quantity="4">
+      <location>
+        <loc>2</loc>
+        <loc>34</loc>
+        <loc>92</loc>
+        <loc>119</loc>
+      </location>
+    </termin>
+    <termin name="система" quantity="5">
+      <location>
+        <loc>3</loc>
+        <loc>15</loc>
+        <loc>22</loc>
+        <loc>30</loc>
+        <loc>120</loc>
+      </location>
+    </termin>
+    <termin name="из" quantity="3">
+      <location>
+        <loc>4</loc>
+        <loc>16</loc>
+        <loc>269</loc>
+      </location>
+    </termin>
+    <termin name="линейный" quantity="4">
+      <location>
+        <loc>5</loc>
+        <loc>17</loc>
+        <loc>160</loc>
+        <loc>171</loc>
+      </location>
+    </termin>
+    <termin name="псевдобулев" quantity="2">
+      <location>
+        <loc>6</loc>
+        <loc>18</loc>
+      </location>
+    </termin>
+    <termin name="неравенство" quantity="2">
+      <location>
+        <loc>7</loc>
+        <loc>19</loc>
+      </location>
+    </termin>
+    <termin name="в" quantity="6">
+      <location>
+        <loc>8</loc>
+        <loc>103</loc>
+        <loc>130</loc>
+        <loc>132</loc>
+        <loc>201</loc>
+        <loc>248</loc>
+      </location>
+    </termin>
+    <termin name="работа" quantity="1">
+      <location>
+        <loc>9</loc>
+      </location>
+    </termin>
+    <termin name="рассматриваться" quantity="4">
+      <location>
+        <loc>10</loc>
+        <loc>134</loc>
+        <loc>167</loc>
+        <loc>203</loc>
+      </location>
+    </termin>
+    <termin name="случайный" quantity="6">
+      <location>
+        <loc>11</loc>
+        <loc>21</loc>
+        <loc>69</loc>
+        <loc>93</loc>
+        <loc>96</loc>
+        <loc>255</loc>
+      </location>
+    </termin>
+    <termin name="и" quantity="6">
+      <location>
+        <loc>12</loc>
+        <loc>43</loc>
+        <loc>71</loc>
+        <loc>74</loc>
+        <loc>110</loc>
+        <loc>190</loc>
+      </location>
+    </termin>
+    <termin name="заведомо" quantity="2">
+      <location>
+        <loc>13</loc>
+        <loc>28</loc>
+      </location>
+    </termin>
+    <termin name="совместный" quantity="2">
+      <location>
+        <loc>14</loc>
+        <loc>29</loc>
+      </location>
+    </termin>
+    <termin name="для" quantity="6">
+      <location>
+        <loc>20</loc>
+        <loc>50</loc>
+        <loc>81</loc>
+        <loc>90</loc>
+        <loc>228</loc>
+        <loc>252</loc>
+      </location>
+    </termin>
+    <termin name="находить" quantity="2">
+      <location>
+        <loc>23</loc>
+        <loc>31</loc>
+      </location>
+    </termin>
+    <termin name="алгебраический" quantity="1">
+      <location>
+        <loc>24</loc>
+      </location>
+    </termin>
+    <termin name="условие" quantity="3">
+      <location>
+        <loc>25</loc>
+        <loc>85</loc>
+        <loc>114</loc>
+      </location>
+    </termin>
+    <termin name="совместность" quantity="1">
+      <location>
+        <loc>26</loc>
+      </location>
+    </termin>
+    <termin name="адль" quantity="1">
+      <location>
+        <loc>27</loc>
+      </location>
+    </termin>
+    <termin name="средний" quantity="1">
+      <location>
+        <loc>32</loc>
+      </location>
+    </termin>
+    <termin name="число" quantity="8">
+      <location>
+        <loc>33</loc>
+        <loc>91</loc>
+        <loc>118</loc>
+        <loc>129</loc>
+        <loc>153</loc>
+        <loc>199</loc>
+        <loc>211</loc>
+        <loc>267</loc>
+      </location>
+    </termin>
+    <termin name="отличаться" quantity="1">
+      <location>
+        <loc>35</loc>
+      </location>
+    </termin>
+    <termin name="от" quantity="2">
+      <location>
+        <loc>36</loc>
+        <loc>53</loc>
+      </location>
+    </termin>
+    <termin name="истинный" quantity="1">
+      <location>
+        <loc>37</loc>
+      </location>
+    </termin>
+    <termin name="вдвуха" quantity="1">
+      <location>
+        <loc>38</loc>
+      </location>
+    </termin>
+    <termin name="координата" quantity="1">
+      <location>
+        <loc>39</loc>
+      </location>
+    </termin>
+    <termin name="стохастический" quantity="1">
+      <location>
+        <loc>40</loc>
+      </location>
+    </termin>
+    <termin name="булев" quantity="2">
+      <location>
+        <loc>41</loc>
+        <loc>51</loc>
+      </location>
+    </termin>
+    <termin name="функция" quantity="5">
+      <location>
+        <loc>42</loc>
+        <loc>52</loc>
+        <loc>63</loc>
+        <loc>66</loc>
+        <loc>70</loc>
+      </location>
+    </termin>
+    <termin name="их" quantity="2">
+      <location>
+        <loc>44</loc>
+        <loc>175</loc>
+      </location>
+    </termin>
+    <termin name="спектр" quantity="2">
+      <location>
+        <loc>45</loc>
+        <loc>67</loc>
+      </location>
+    </termin>
+    <termin name="предлагаться" quantity="2">
+      <location>
+        <loc>46</loc>
+        <loc>243</loc>
+      </location>
+    </termin>
+    <termin name="общий" quantity="2">
+      <location>
+        <loc>47</loc>
+        <loc>239</loc>
+      </location>
+    </termin>
+    <termin name="вероятностный" quantity="2">
+      <location>
+        <loc>48</loc>
+        <loc>57</loc>
+      </location>
+    </termin>
+    <termin name="модель" quantity="1">
+      <location>
+        <loc>49</loc>
+      </location>
+    </termin>
+    <termin name="переменный" quantity="1">
+      <location>
+        <loc>54</loc>
+      </location>
+    </termin>
+    <termin name="задавать" quantity="1">
+      <location>
+        <loc>55</loc>
+      </location>
+    </termin>
+    <termin name="произвольный" quantity="1">
+      <location>
+        <loc>56</loc>
+      </location>
+    </termin>
+    <termin name="мера" quantity="2">
+      <location>
+        <loc>58</loc>
+        <loc>84</loc>
+      </location>
+    </termin>
+    <termin name="на" quantity="2">
+      <location>
+        <loc>59</loc>
+        <loc>260</loc>
+      </location>
+    </termin>
+    <termin name="множество" quantity="4">
+      <location>
+        <loc>60</loc>
+        <loc>127</loc>
+        <loc>151</loc>
+        <loc>261</loc>
+      </location>
+    </termin>
+    <termin name="весь" quantity="2">
+      <location>
+        <loc>61</loc>
+        <loc>207</loc>
+      </location>
+    </termin>
+    <termin name="такой" quantity="1">
+      <location>
+        <loc>62</loc>
+      </location>
+    </termin>
+    <termin name="выводиться" quantity="1">
+      <location>
+        <loc>64</loc>
+      </location>
+    </termin>
+    <termin name="характеристический" quantity="1">
+      <location>
+        <loc>65</loc>
+      </location>
+    </termin>
+    <termin name="уолша" quantity="1">
+      <location>
+        <loc>68</loc>
+      </location>
+    </termin>
+    <termin name="находиться" quantity="1">
+      <location>
+        <loc>72</loc>
+      </location>
+    </termin>
+    <termin name="точный" quantity="1">
+      <location>
+        <loc>73</loc>
+      </location>
+    </termin>
+    <termin name="асимптотический" quantity="1">
+      <location>
+        <loc>75</loc>
+      </location>
+    </termin>
+    <termin name="при" quantity="4">
+      <location>
+        <loc>76</loc>
+        <loc>116</loc>
+        <loc>194</loc>
+        <loc>273</loc>
+      </location>
+    </termin>
+    <termin name="распределение" quantity="5">
+      <location>
+        <loc>77</loc>
+        <loc>88</loc>
+        <loc>117</loc>
+        <loc>259</loc>
+        <loc>266</loc>
+      </location>
+    </termin>
+    <termin name="некоторый" quantity="1">
+      <location>
+        <loc>78</loc>
+      </location>
+    </termin>
+    <termin name="он" quantity="1">
+      <location>
+        <loc>79</loc>
+      </location>
+    </termin>
+    <termin name="характеристика" quantity="1">
+      <location>
+        <loc>80</loc>
+      </location>
+    </termin>
+    <termin name="случай" quantity="1">
+      <location>
+        <loc>82</loc>
+      </location>
+    </termin>
+    <termin name="параметрический" quantity="1">
+      <location>
+        <loc>83</loc>
+      </location>
+    </termin>
+    <termin name="сходимость" quantity="2">
+      <location>
+        <loc>86</loc>
+        <loc>115</loc>
+      </location>
+    </termin>
+    <termin name="к" quantity="1">
+      <location>
+        <loc>87</loc>
+      </location>
+    </termin>
+    <termin name="пуассон" quantity="2">
+      <location>
+        <loc>89</loc>
+        <loc>123</loc>
+      </location>
+    </termin>
+    <termin name="включение" quantity="2">
+      <location>
+        <loc>94</loc>
+        <loc>121</loc>
+      </location>
+    </termin>
+    <termin name="пусть" quantity="1">
+      <location>
+        <loc>95</loc>
+      </location>
+    </termin>
+    <termin name="отображение" quantity="1">
+      <location>
+        <loc>97</loc>
+      </location>
+    </termin>
+    <termin name="мерный" quantity="2">
+      <location>
+        <loc>98</loc>
+        <loc>104</loc>
+      </location>
+    </termin>
+    <termin name="пространство" quantity="3">
+      <location>
+        <loc>99</loc>
+        <loc>105</loc>
+        <loc>145</loc>
+      </location>
+    </termin>
+    <termin name="над" quantity="2">
+      <location>
+        <loc>100</loc>
+        <loc>106</loc>
+      </location>
+    </termin>
+    <termin name="конечный" quantity="1">
+      <location>
+        <loc>101</loc>
+      </location>
+    </termin>
+    <termin name="поле" quantity="2">
+      <location>
+        <loc>102</loc>
+        <loc>109</loc>
+      </location>
+    </termin>
+    <termin name="тот" quantity="1">
+      <location>
+        <loc>107</loc>
+      </location>
+    </termin>
+    <termin name="же" quantity="2">
+      <location>
+        <loc>108</loc>
+        <loc>226</loc>
+      </location>
+    </termin>
+    <termin name="выводить" quantity="1">
+      <location>
+        <loc>111</loc>
+      </location>
+    </termin>
+    <termin name="новый" quantity="1">
+      <location>
+        <loc>112</loc>
+      </location>
+    </termin>
+    <termin name="достаточный" quantity="1">
+      <location>
+        <loc>113</loc>
+      </location>
+    </termin>
+    <termin name="краспределение" quantity="1">
+      <location>
+        <loc>122</loc>
+      </location>
+    </termin>
+    <termin name="метрический" quantity="1">
+      <location>
+        <loc>124</loc>
+      </location>
+    </termin>
+    <termin name="свойство" quantity="1">
+      <location>
+        <loc>125</loc>
+      </location>
+    </termin>
+    <termin name="вложение" quantity="3">
+      <location>
+        <loc>126</loc>
+        <loc>140</loc>
+        <loc>150</loc>
+      </location>
+    </termin>
+    <termin name="целый" quantity="2">
+      <location>
+        <loc>128</loc>
+        <loc>152</loc>
+      </location>
+    </termin>
+    <termin name="цилиндр" quantity="2">
+      <location>
+        <loc>131</loc>
+        <loc>155</loc>
+      </location>
+    </termin>
+    <termin name="статья" quantity="2">
+      <location>
+        <loc>133</loc>
+        <loc>202</loc>
+      </location>
+    </termin>
+    <termin name="вопрос" quantity="1">
+      <location>
+        <loc>135</loc>
+      </location>
+    </termin>
+    <termin name="связывать" quantity="1">
+      <location>
+        <loc>136</loc>
+      </location>
+    </termin>
+    <termin name="соднородный" quantity="1">
+      <location>
+        <loc>137</loc>
+      </location>
+    </termin>
+    <termin name="равномерный" quantity="1">
+      <location>
+        <loc>138</loc>
+      </location>
+    </termin>
+    <termin name="дискретный" quantity="2">
+      <location>
+        <loc>139</loc>
+        <loc>265</loc>
+      </location>
+    </termin>
+    <termin name="конечнопорождать" quantity="1">
+      <location>
+        <loc>141</loc>
+      </location>
+    </termin>
+    <termin name="абелевый" quantity="1">
+      <location>
+        <loc>142</loc>
+      </location>
+    </termin>
+    <termin name="группа" quantity="1">
+      <location>
+        <loc>143</loc>
+      </location>
+    </termin>
+    <termin name="вриманов" quantity="1">
+      <location>
+        <loc>144</loc>
+      </location>
+    </termin>
+    <termin name="давать" quantity="1">
+      <location>
+        <loc>146</loc>
+      </location>
+    </termin>
+    <termin name="исчерпывающий" quantity="1">
+      <location>
+        <loc>147</loc>
+      </location>
+    </termin>
+    <termin name="классификация" quantity="1">
+      <location>
+        <loc>148</loc>
+      </location>
+    </termin>
+    <termin name="гомоморфный" quantity="1">
+      <location>
+        <loc>149</loc>
+      </location>
+    </termin>
+    <termin name="вдвумерный" quantity="1">
+      <location>
+        <loc>154</loc>
+      </location>
+    </termin>
+    <termin name="факторструктура" quantity="2">
+      <location>
+        <loc>156</loc>
+        <loc>168</loc>
+      </location>
+    </termin>
+    <termin name="преобразование" quantity="4">
+      <location>
+        <loc>157</loc>
+        <loc>165</loc>
+        <loc>176</loc>
+        <loc>181</loc>
+      </location>
+    </termin>
+    <termin name="наличие" quantity="1">
+      <location>
+        <loc>158</loc>
+      </location>
+    </termin>
+    <termin name="нетривиальный" quantity="1">
+      <location>
+        <loc>159</loc>
+      </location>
+    </termin>
+    <termin name="являться" quantity="3">
+      <location>
+        <loc>162</loc>
+        <loc>169</loc>
+        <loc>237</loc>
+      </location>
+    </termin>
+    <termin name="слабость" quantity="1">
+      <location>
+        <loc>163</loc>
+      </location>
+    </termin>
+    <termin name="криптографический" quantity="2">
+      <location>
+        <loc>164</loc>
+        <loc>187</loc>
+      </location>
+    </termin>
+    <termin name="вработа" quantity="1">
+      <location>
+        <loc>166</loc>
+      </location>
+    </termin>
+    <termin name="обобщение" quantity="1">
+      <location>
+        <loc>170</loc>
+      </location>
+    </termin>
+    <termin name="описывать" quantity="2">
+      <location>
+        <loc>173</loc>
+        <loc>216</loc>
+      </location>
+    </termin>
+    <termin name="сохранять" quantity="1">
+      <location>
+        <loc>174</loc>
+      </location>
+    </termin>
+    <termin name="втермин" quantity="1">
+      <location>
+        <loc>177</loc>
+      </location>
+    </termin>
+    <termin name="операция" quantity="1">
+      <location>
+        <loc>178</loc>
+      </location>
+    </termin>
+    <termin name="сплетение" quantity="1">
+      <location>
+        <loc>179</loc>
+      </location>
+    </termin>
+    <termin name="полугруппа" quantity="1">
+      <location>
+        <loc>180</loc>
+      </location>
+    </termin>
+    <termin name="устанавливать" quantity="1">
+      <location>
+        <loc>182</loc>
+      </location>
+    </termin>
+    <termin name="связь" quantity="1">
+      <location>
+        <loc>183</loc>
+      </location>
+    </termin>
+    <termin name="два" quantity="1">
+      <location>
+        <loc>184</loc>
+      </location>
+    </termin>
+    <termin name="класс" quantity="3">
+      <location>
+        <loc>185</loc>
+        <loc>217</loc>
+        <loc>235</loc>
+      </location>
+    </termin>
+    <termin name="метод" quantity="2">
+      <location>
+        <loc>186</loc>
+        <loc>277</loc>
+      </location>
+    </termin>
+    <termin name="анализ" quantity="1">
+      <location>
+        <loc>188</loc>
+      </location>
+    </termin>
+    <termin name="разностный" quantity="1">
+      <location>
+        <loc>189</loc>
+      </location>
+    </termin>
+    <termin name="гомоморфизм" quantity="1">
+      <location>
+        <loc>191</loc>
+      </location>
+    </termin>
+    <termin name="редукция" quantity="1">
+      <location>
+        <loc>192</loc>
+      </location>
+    </termin>
+    <termin name="граф" quantity="3">
+      <location>
+        <loc>193</loc>
+        <loc>209</loc>
+        <loc>229</loc>
+      </location>
+    </termin>
+    <termin name="поиск" quantity="2">
+      <location>
+        <loc>195</loc>
+        <loc>222</loc>
+      </location>
+    </termin>
+    <termin name="реберный" quantity="1">
+      <location>
+        <loc>196</loc>
+      </location>
+    </termin>
+    <termin name="покрытие" quantity="3">
+      <location>
+        <loc>197</loc>
+        <loc>206</loc>
+        <loc>224</loc>
+      </location>
+    </termin>
+    <termin name="минимальный" quantity="2">
+      <location>
+        <loc>198</loc>
+        <loc>210</loc>
+      </location>
+    </termin>
+    <termin name="клик" quantity="2">
+      <location>
+        <loc>200</loc>
+        <loc>215</loc>
+      </location>
+    </termin>
+    <termin name="задача" quantity="3">
+      <location>
+        <loc>204</loc>
+        <loc>221</loc>
+        <loc>227</loc>
+      </location>
+    </termin>
+    <termin name="построение" quantity="1">
+      <location>
+        <loc>205</loc>
+      </location>
+    </termin>
+    <termin name="ребро" quantity="1">
+      <location>
+        <loc>208</loc>
+      </location>
+    </termin>
+    <termin name="его" quantity="1">
+      <location>
+        <loc>212</loc>
+      </location>
+    </termin>
+    <termin name="полный" quantity="1">
+      <location>
+        <loc>213</loc>
+      </location>
+    </termin>
+    <termin name="подграф" quantity="3">
+      <location>
+        <loc>214</loc>
+        <loc>218</loc>
+        <loc>236</loc>
+      </location>
+    </termin>
+    <termin name="позволять" quantity="1">
+      <location>
+        <loc>219</loc>
+      </location>
+    </termin>
+    <termin name="сводить" quantity="1">
+      <location>
+        <loc>220</loc>
+      </location>
+    </termin>
+    <termin name="указанный" quantity="1">
+      <location>
+        <loc>223</loc>
+      </location>
+    </termin>
+    <termin name="ктака" quantity="1">
+      <location>
+        <loc>225</loc>
+      </location>
+    </termin>
+    <termin name="меньший" quantity="1">
+      <location>
+        <loc>230</loc>
+      </location>
+    </termin>
+    <termin name="порядок" quantity="1">
+      <location>
+        <loc>231</loc>
+      </location>
+    </termin>
+    <termin name="показывать" quantity="1">
+      <location>
+        <loc>232</loc>
+      </location>
+    </termin>
+    <termin name="что" quantity="1">
+      <location>
+        <loc>233</loc>
+      </location>
+    </termin>
+    <termin name="этот" quantity="1">
+      <location>
+        <loc>234</loc>
+      </location>
+    </termin>
+    <termin name="более" quantity="1">
+      <location>
+        <loc>238</loc>
+      </location>
+    </termin>
+    <termin name="по" quantity="1">
+      <location>
+        <loc>240</loc>
+      </location>
+    </termin>
+    <termin name="отношение" quantity="1">
+      <location>
+        <loc>241</loc>
+      </location>
+    </termin>
+    <termin name="ккласс" quantity="1">
+      <location>
+        <loc>242</loc>
+      </location>
+    </termin>
+    <termin name="ранее" quantity="1">
+      <location>
+        <loc>244</loc>
+      </location>
+    </termin>
+    <termin name="структурно" quantity="2">
+      <location>
+        <loc>245</loc>
+        <loc>270</loc>
+      </location>
+    </termin>
+    <termin name="эквивалентный" quantity="2">
+      <location>
+        <loc>246</loc>
+        <loc>271</loc>
+      </location>
+    </termin>
+    <termin name="цепочка" quantity="2">
+      <location>
+        <loc>247</loc>
+        <loc>272</loc>
+      </location>
+    </termin>
+    <termin name="равновероятный" quantity="2">
+      <location>
+        <loc>249</loc>
+        <loc>258</loc>
+      </location>
+    </termin>
+    <termin name="полиномиальный" quantity="1">
+      <location>
+        <loc>250</loc>
+      </location>
+    </termin>
+    <termin name="схема" quantity="1">
+      <location>
+        <loc>251</loc>
+      </location>
+    </termin>
+    <termin name="последовательность" quantity="1">
+      <location>
+        <loc>253</loc>
+      </location>
+    </termin>
+    <termin name="независимый" quantity="1">
+      <location>
+        <loc>254</loc>
+      </location>
+    </termin>
+    <termin name="величина" quantity="1">
+      <location>
+        <loc>256</loc>
+      </location>
+    </termin>
+    <termin name="иметь" quantity="1">
+      <location>
+        <loc>257</loc>
+      </location>
+    </termin>
+    <termin name="получать" quantity="1">
+      <location>
+        <loc>262</loc>
+      </location>
+    </termin>
+    <termin name="описание" quantity="1">
+      <location>
+        <loc>263</loc>
+      </location>
+    </termin>
+    <termin name="предельный" quantity="1">
+      <location>
+        <loc>264</loc>
+      </location>
+    </termin>
+    <termin name="набор" quantity="1">
+      <location>
+        <loc>268</loc>
+      </location>
+    </termin>
+    <termin name="ипроизвольный" quantity="1">
+      <location>
+        <loc>274</loc>
+      </location>
+    </termin>
+    <termin name="доказательство" quantity="1">
+      <location>
+        <loc>275</loc>
+      </location>
+    </termin>
+    <termin name="использовать" quantity="1">
+      <location>
+        <loc>276</loc>
+      </location>
+    </termin>
+    <termin name="ченастейн" quantity="1">
+      <location>
+        <loc>278</loc>
+      </location>
+    </termin>
+  </doc>
+</documents>

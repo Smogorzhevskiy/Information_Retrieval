@@ -21,10 +21,7 @@ namespace InformationRetrieval.Classes
             process.Start();
             process.WaitForExit();
             process.Close();
-            ////приходится стопить программу, иначе запрос не успевает отработать и в результате значение нынешнего нода присвоится следующему и так по цепочке
-            //System.Threading.Thread.Sleep(1000);
             string[] lines = File.ReadAllLines(directory + "/output.txt");
-            Console.WriteLine(lines.Length);
             for (int i = 0; i < lines.Length; i++)
             {
 
