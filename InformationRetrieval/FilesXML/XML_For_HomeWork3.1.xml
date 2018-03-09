@@ -1,0 +1,558 @@
+<termins totalCount="278">
+  <termin value="n" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="абелев" count="1">
+    <doc id="3" article="1" />
+  </termin>
+  <termin value="адл" count="1">
+    <doc id="0" article="1" />
+  </termin>
+  <termin value="алгебраическ" count="1">
+    <doc id="0" article="1" />
+  </termin>
+  <termin value="анализа:" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="асимптотическ" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="бол" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="булев" count="2">
+    <doc id="1" title="1" article="1" />
+  </termin>
+  <termin value="в" count="5">
+    <doc id="0" article="1" />
+    <doc id="3" title="1" article="1" />
+    <doc id="5" article="1" />
+    <doc id="6" title="1" />
+  </termin>
+  <termin value="вдвумерн" count="1">
+    <doc id="3" article="1" />
+  </termin>
+  <termin value="вдвух" count="1">
+    <doc id="0" article="1" />
+  </termin>
+  <termin value="величин" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="вероятностн" count="2">
+    <doc id="1" article="2" />
+  </termin>
+  <termin value="включен" count="1">
+    <doc id="2" title="1" />
+  </termin>
+  <termin value="включений" count="1">
+    <doc id="2" article="1" />
+  </termin>
+  <termin value="вложен" count="3">
+    <doc id="3" title="1" article="2" />
+  </termin>
+  <termin value="вопрос" count="1">
+    <doc id="3" article="1" />
+  </termin>
+  <termin value="вработ" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="вриманов" count="1">
+    <doc id="3" article="1" />
+  </termin>
+  <termin value="всех" count="2">
+    <doc id="1" article="1" />
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="втермин" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="вывед" count="1">
+    <doc id="2" article="1" />
+  </termin>
+  <termin value="вывод" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="гомоморфизм" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="гомоморфн" count="1">
+    <doc id="3" article="1" />
+  </termin>
+  <termin value="граф" count="3">
+    <doc id="5" title="1" article="2" />
+  </termin>
+  <termin value="групп" count="1">
+    <doc id="3" article="1" />
+  </termin>
+  <termin value="дан" count="1">
+    <doc id="3" article="1" />
+  </termin>
+  <termin value="двух" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="дискретн" count="2">
+    <doc id="3" article="1" />
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="для" count="6">
+    <doc id="0" article="1" />
+    <doc id="1" article="2" />
+    <doc id="2" title="1" />
+    <doc id="5" article="1" />
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="доказательств" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="достаточн" count="1">
+    <doc id="2" article="1" />
+  </termin>
+  <termin value="ег" count="2">
+    <doc id="1" article="1" />
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="же" count="2">
+    <doc id="2" article="1" />
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="заведом" count="2">
+    <doc id="0" article="2" />
+  </termin>
+  <termin value="задава" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="задач" count="3">
+    <doc id="5" article="3" />
+  </termin>
+  <termin value="и" count="6">
+    <doc id="0" article="1" />
+    <doc id="1" title="1" article="2" />
+    <doc id="2" article="1" />
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="из" count="3">
+    <doc id="0" title="1" article="1" />
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="имеющ" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="использ" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="истин" count="1">
+    <doc id="0" article="1" />
+  </termin>
+  <termin value="исчерпыва" count="1">
+    <doc id="3" article="1" />
+  </termin>
+  <termin value="их" count="2">
+    <doc id="1" title="1" />
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="к" count="1">
+    <doc id="2" title="1" />
+  </termin>
+  <termin value="ккласс" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="класс" count="3">
+    <doc id="4" article="1" />
+    <doc id="5" article="2" />
+  </termin>
+  <termin value="классификац" count="1">
+    <doc id="3" article="1" />
+  </termin>
+  <termin value="клик" count="2">
+    <doc id="5" title="1" article="1" />
+  </termin>
+  <termin value="конечн" count="1">
+    <doc id="2" article="1" />
+  </termin>
+  <termin value="конечнопорождён" count="1">
+    <doc id="3" article="1" />
+  </termin>
+  <termin value="координат" count="1">
+    <doc id="0" article="1" />
+  </termin>
+  <termin value="краспределен" count="1">
+    <doc id="2" article="1" />
+  </termin>
+  <termin value="криптографическ" count="2">
+    <doc id="4" article="2" />
+  </termin>
+  <termin value="ктак" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="линейн" count="4">
+    <doc id="0" title="1" article="1" />
+    <doc id="4" article="2" />
+  </termin>
+  <termin value="меньш" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="мер" count="2">
+    <doc id="1" article="2" />
+  </termin>
+  <termin value="-мерн" count="2">
+    <doc id="2" article="2" />
+  </termin>
+  <termin value="метод" count="2">
+    <doc id="4" article="1" />
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="метрическ" count="1">
+    <doc id="3" title="1" />
+  </termin>
+  <termin value="минимальн" count="2">
+    <doc id="5" title="1" article="1" />
+  </termin>
+  <termin value="множеств" count="3">
+    <doc id="1" article="1" />
+    <doc id="3" title="1" article="1" />
+  </termin>
+  <termin value="множестве" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="модел" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="на" count="2">
+    <doc id="1" article="1" />
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="набор" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="над" count="2">
+    <doc id="2" article="2" />
+  </termin>
+  <termin value="найд" count="2">
+    <doc id="0" article="2" />
+  </termin>
+  <termin value="налич" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="наход" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="независим" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="некотор" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="неравенств" count="2">
+    <doc id="0" title="1" article="1" />
+  </termin>
+  <termin value="нетривиальн" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="нов" count="1">
+    <doc id="2" article="1" />
+  </termin>
+  <termin value="о" count="1">
+    <doc id="0" title="1" />
+  </termin>
+  <termin value="обобщен" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="общ" count="2">
+    <doc id="1" article="1" />
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="операц" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="описа" count="2">
+    <doc id="4" article="1" />
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="описан" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="от" count="2">
+    <doc id="0" article="1" />
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="отлича" count="1">
+    <doc id="0" article="1" />
+  </termin>
+  <termin value="отношен" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="отображение" count="1">
+    <doc id="2" article="1" />
+  </termin>
+  <termin value="параметрическ" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="перемен" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="по" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="подграф" count="3">
+    <doc id="5" article="3" />
+  </termin>
+  <termin value="позволя" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="поиск" count="2">
+    <doc id="5" title="1" article="1" />
+  </termin>
+  <termin value="показа" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="покрыт" count="3">
+    <doc id="5" title="1" article="2" />
+  </termin>
+  <termin value="пол" count="1">
+    <doc id="2" article="1" />
+  </termin>
+  <termin value="полем" count="1">
+    <doc id="2" article="1" />
+  </termin>
+  <termin value="полиномиальн" count="1">
+    <doc id="6" title="1" />
+  </termin>
+  <termin value="полн" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="полугрупп" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="получ" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="порядк" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="последовательности" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="построен" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="предельн" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="предлага" count="2">
+    <doc id="1" article="1" />
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="преобразован" count="4">
+    <doc id="4" title="1" article="3" />
+  </termin>
+  <termin value="при" count="4">
+    <doc id="1" article="1" />
+    <doc id="2" article="1" />
+    <doc id="5" title="1" />
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="произвольн" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="пространств" count="1">
+    <doc id="3" article="1" />
+  </termin>
+  <termin value="пространства" count="1">
+    <doc id="2" article="1" />
+  </termin>
+  <termin value="пространство" count="1">
+    <doc id="2" article="1" />
+  </termin>
+  <termin value="псевдобулев" count="2">
+    <doc id="0" title="1" article="1" />
+  </termin>
+  <termin value="пуассон" count="2">
+    <doc id="2" title="1" article="1" />
+  </termin>
+  <termin value="пусть" count="1">
+    <doc id="2" article="1" />
+  </termin>
+  <termin value="работ" count="1">
+    <doc id="0" article="1" />
+  </termin>
+  <termin value="равновероятн" count="2">
+    <doc id="6" title="1" article="1" />
+  </termin>
+  <termin value="равномерн" count="1">
+    <doc id="3" article="1" />
+  </termin>
+  <termin value="разностн" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="ран" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="распределен" count="5">
+    <doc id="1" article="1" />
+    <doc id="2" title="1" article="1" />
+    <doc id="6" article="2" />
+  </termin>
+  <termin value="рассматрива" count="4">
+    <doc id="0" article="1" />
+    <doc id="3" article="1" />
+    <doc id="4" article="1" />
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="ребер" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="реберн" count="1">
+    <doc id="5" title="1" />
+  </termin>
+  <termin value="редукц" count="1">
+    <doc id="5" title="1" />
+  </termin>
+  <termin value="решен" count="4">
+    <doc id="0" title="1" article="1" />
+    <doc id="2" title="1" article="1" />
+  </termin>
+  <termin value="свод" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="свойств" count="1">
+    <doc id="3" title="1" />
+  </termin>
+  <termin value="связ" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="связа" count="1">
+    <doc id="3" article="1" />
+  </termin>
+  <termin value="сист" count="2">
+    <doc id="0" article="2" />
+  </termin>
+  <termin value="систем" count="3">
+    <doc id="0" title="1" article="1" />
+    <doc id="2" article="1" />
+  </termin>
+  <termin value="слабост" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="случ" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="случайн" count="6">
+    <doc id="0" article="2" />
+    <doc id="1" article="1" />
+    <doc id="2" title="1" article="1" />
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="совместн" count="3">
+    <doc id="0" article="3" />
+  </termin>
+  <termin value="соднородн" count="1">
+    <doc id="3" article="1" />
+  </termin>
+  <termin value="сохраня" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="спектр" count="2">
+    <doc id="1" title="1" article="1" />
+  </termin>
+  <termin value="сплетен" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="средн" count="1">
+    <doc id="0" article="1" />
+  </termin>
+  <termin value="стат" count="2">
+    <doc id="3" article="1" />
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="стохастическ" count="1">
+    <doc id="1" title="1" />
+  </termin>
+  <termin value="структур" count="3">
+    <doc id="0" title="1" />
+    <doc id="4" article="2" />
+  </termin>
+  <termin value="структурн" count="2">
+    <doc id="6" title="1" article="1" />
+  </termin>
+  <termin value="схем" count="1">
+    <doc id="6" title="1" />
+  </termin>
+  <termin value="сходим" count="2">
+    <doc id="2" title="1" article="1" />
+  </termin>
+  <termin value="так" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="тем" count="1">
+    <doc id="2" article="1" />
+  </termin>
+  <termin value="точн" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="указа" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="уолш" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="услов" count="3">
+    <doc id="0" article="1" />
+    <doc id="2" title="1" article="1" />
+  </termin>
+  <termin value="установл" count="1">
+    <doc id="4" article="1" />
+  </termin>
+  <termin value="факторструктур" count="2">
+    <doc id="4" title="1" article="1" />
+  </termin>
+  <termin value="функц" count="5">
+    <doc id="1" title="1" article="4" />
+  </termin>
+  <termin value="характеристик" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="характеристическ" count="1">
+    <doc id="1" article="1" />
+  </termin>
+  <termin value="цел" count="2">
+    <doc id="3" title="1" article="1" />
+  </termin>
+  <termin value="-цепочек" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="цепочк" count="1">
+    <doc id="6" title="1" />
+  </termin>
+  <termin value="цилиндр" count="2">
+    <doc id="3" title="1" article="1" />
+  </termin>
+  <termin value="ченастейн" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="чисел" count="4">
+    <doc id="2" title="1" />
+    <doc id="3" title="1" article="1" />
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="числ" count="4">
+    <doc id="0" article="1" />
+    <doc id="2" article="1" />
+    <doc id="5" title="1" article="1" />
+  </termin>
+  <termin value="что" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="эквивалентн" count="1">
+    <doc id="6" title="1" />
+  </termin>
+  <termin value="эквивалентных" count="1">
+    <doc id="6" article="1" />
+  </termin>
+  <termin value="эт" count="1">
+    <doc id="5" article="1" />
+  </termin>
+  <termin value="явля" count="3">
+    <doc id="4" article="2" />
+    <doc id="5" article="1" />
+  </termin>
+</termins>

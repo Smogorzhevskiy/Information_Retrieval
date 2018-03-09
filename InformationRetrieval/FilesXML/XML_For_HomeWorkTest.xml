@@ -1,0 +1,22 @@
+<issue url="http://www.mathnet.ru/php/contents.phtml?wshow=issue&amp;jrnid=mvk&amp;year=2012&amp;volume=3&amp;issue=3&amp;series=0&amp;option_lang=rus">
+  <articles>
+    <article>
+      <url>http://www.mathnet.ru/rus/mvk58</url>
+      <title>
+        <porter>я идти идти дом</porter>
+      </title>
+      <annotation>
+        <porter>я нет тут</porter>
+      </annotation>
+    </article>
+    <article>
+      <url>http://www.mathnet.ru/rus/mvk59</url>
+      <title>
+        <porter>я</porter>
+      </title>
+      <annotation>
+        <porter>пришел пришел</porter>
+      </annotation>
+    </article>
+  </articles>
+</issue>

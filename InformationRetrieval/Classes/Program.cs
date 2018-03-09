@@ -18,18 +18,18 @@ namespace InformationRetrieval
         private static void Main(string[] args)
         {
 
-            Console.WriteLine("Enter url");
-            _url = Console.ReadLine();
+            //Console.WriteLine("Enter url");
+            //_url = Console.ReadLine();
 
             DocumentData document = new DocumentData(_url);
-            document.CreateXMLDoc();
+            //document.CreateXMLDoc();
 
-            document.GetTextFromXML("porter");
-            document.GetTextFromXML("mystem");
+            //document.GetTextFromXML("porter");
+            //document.GetTextFromXML("mystem");
 
             InvertedIndex invertedIndex = new InvertedIndex();
 
-            invertedIndex.CreateInvertedIndex();
+            invertedIndex.CreateInvertedIndex("porter");
 
             document.XMLForInvertedIndex(invertedIndex.GetInvertedIndex());
 
