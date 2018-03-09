@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{87D7F08A-F2B0-4B0F-8C6B-AD0C65263D3F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="InformationRetrieval/Classes/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InformationRetrieval/Classes/InvertedIndex.cs">
     <Files>
       <File FileName="InformationRetrieval/Classes/Article.cs" Line="42" Column="142" />
-      <File FileName="InformationRetrieval/Classes/DocumentData.cs" Line="195" Column="57" />
+      <File FileName="InformationRetrieval/Classes/DocumentData.cs" Line="121" Column="1" />
       <File FileName="InformationRetrieval/Classes/Issue.cs" Line="12" Column="13" />
-      <File FileName="InformationRetrieval/Classes/Program.cs" Line="34" Column="63" />
+      <File FileName="InformationRetrieval/Classes/Program.cs" Line="22" Column="46" />
       <File FileName="InformationRetrieval/Classes/MyStem.cs" Line="24" Column="1" />
-      <File FileName="InformationRetrieval/Classes/InvertedIndex.cs" Line="45" Column="32" />
+      <File FileName="InformationRetrieval/Classes/InvertedIndex.cs" Line="72" Column="1" />
       <File FileName="InformationRetrieval/Classes/Termin.cs" Line="21" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>

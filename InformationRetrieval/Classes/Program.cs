@@ -13,6 +13,7 @@ namespace InformationRetrieval
     class MainClass
     {
         private static string _url = null;
+        private static string _stemmer = null;
 
 
         private static void Main(string[] args)
@@ -24,12 +25,11 @@ namespace InformationRetrieval
             DocumentData document = new DocumentData(_url);
             //document.CreateXMLDoc();
 
-            //document.GetTextFromXML("porter");
-            //document.GetTextFromXML("mystem");
-
+            Console.WriteLine("Choose stemmer: porter or mystem");
+            _stemmer = Console.ReadLine();
             InvertedIndex invertedIndex = new InvertedIndex();
 
-            invertedIndex.CreateInvertedIndex("porter");
+            invertedIndex.CreateInvertedIndex(_stemmer);
 
             document.XMLForInvertedIndex(invertedIndex.GetInvertedIndex());
 
