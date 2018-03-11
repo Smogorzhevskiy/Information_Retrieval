@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Xml.Linq;
 
 namespace InformationRetrieval.Classes
@@ -8,7 +9,7 @@ namespace InformationRetrieval.Classes
     {
         public string _value;
         public int _count = 1;
-        public Dictionary<int, Dictionary<string, int>> _doc = new Dictionary<int, Dictionary<string, int>>();
+        public  SortedDictionary<int, Dictionary<string, int>> _doc = new SortedDictionary<int, Dictionary<string, int>>();
 
         public Termin(string value)
         {
@@ -65,6 +66,10 @@ namespace InformationRetrieval.Classes
                 termin.Add(doc);
             }
             return termin;
+        }
+
+        public List<int>  Keys(){
+            return _doc.Keys.ToList();
         }
     }
 }

@@ -14,6 +14,8 @@ namespace InformationRetrieval
     {
         private static string _url = null;
         private static string _stemmer = null;
+        private static string _mess = null;
+
 
 
         private static void Main(string[] args)
@@ -32,6 +34,12 @@ namespace InformationRetrieval
             invertedIndex.CreateInvertedIndex(_stemmer);
 
             document.XMLForInvertedIndex(invertedIndex.GetInvertedIndex());
+
+            Console.WriteLine("enter messege: ");
+            _mess = Console.ReadLine();
+
+            invertedIndex.And(_mess);
+
 
 
 
