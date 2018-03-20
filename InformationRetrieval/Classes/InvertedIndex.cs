@@ -12,7 +12,8 @@ namespace InformationRetrieval.Classes
     {
         string _stem;
         string folder = @"/Users/User/Documents/itis/Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/";
-
+        int countDocs;
+        int[] countWords;
         public SortedDictionary<string, Termin> invertedIndex;
 
         public void CreateInvertedIndex(string stem)
@@ -30,12 +31,14 @@ namespace InformationRetrieval.Classes
         private void AddToIndex(string stem)
         {
             Dictionary<int, Dictionary<string, string>> data = GetDataForIndex(stem);
+            countDocs = data.Count();
+            countWords = new int [countDocs];
             foreach (int id in data.Keys)
             {
                 foreach (string type in data[id].Keys)
                 {
                     List<string> content = data[id][type].Trim().Split(' ').ToList();
-
+                    countWords[id] += content.Count();
                     for (int i = 0; i < content.Count; i++)
                     {
                         if (!invertedIndex.ContainsKey(content[i]))
@@ -60,6 +63,46 @@ namespace InformationRetrieval.Classes
                         }
                     }
                 }
+            }
+
+            CalculateScoreForEachTermin(countDocs, countWords);
+        }
+
+
+        public void CalculateScoreForEachTermin(int countDocs, int[] countWords)
+        {
+
+            foreach (string term in invertedIndex.Keys)
+            {
+
+                int countDocsWhithTermin = invertedIndex[term].Keys().Count();
+                foreach (int id in invertedIndex[term].Keys())
+                {
+                    int countWordsInDoc = 0;
+                    foreach (string type in invertedIndex[term].KeysForType(id))
+                    {
+                        countWordsInDoc += invertedIndex[term]._doc[id][type];
+                    }
+
+                    double tf = (double)countWordsInDoc/(double)countWords[id];
+                    double idf = Math.Log10(((double)countDocs/(double)countDocsWhithTermin));
+
+                    double k = 0.0;
+                    if(invertedIndex[term].KeysForType(id).Count() == 2){
+                        k = 1.0;
+                    }
+                    else{
+                        if (invertedIndex[term].KeysForType(id)[0] == "title")
+                        {
+                            k = 0.6;
+                        }
+                        else
+                            k = 0.4;
+                    }
+                    invertedIndex[term].score.Add(id, tf * idf * k);
+                    
+                }
+
             }
         }
 
@@ -113,6 +156,7 @@ namespace InformationRetrieval.Classes
                 {
                     a = Inter(dic[1]);
                 }
+                // если нет слов помимо орицательных, то получаю все термины
                 else
                 {
                     foreach (string key in invertedIndex.Keys){
@@ -143,26 +187,61 @@ namespace InformationRetrieval.Classes
                 }
                 if (output ==null)
                 {
-                    File.WriteAllText(folder + "FilesXML/HomeWork4.txt", input + " :");
+                    File.WriteAllText(folder + "FilesXML/HomeWork5.txt", input + " :");
                 }
                 else
                 {
-                    File.WriteAllText(folder + "FilesXML/HomeWork4.txt", input + " : " + output);
+                    //File.WriteAllText(folder + "FilesXML/HomeWork4.txt", input + " : " + output);
+                    string score = SortedByScore(dic[1], n);
+                    output += "\n" + score;
+                    File.WriteAllText(folder + "FilesXML/HomeWork5.txt", input + " : " + output);
+
                 }
 
 
             }
             else 
             {
-                File.WriteAllText(folder + "FilesXML/HomeWork4.txt",input + " : ");
+                File.WriteAllText(folder + "FilesXML/HomeWork5.txt",input + " : ");
 
             }
         }
-        // проверка наоичия терминов, кроме терминов с -, иначе не будут найдены сочетания терминов которые и так не содержали не сущ термин
+
+        public string SortedByScore(List<string> termins, List<int> id){
+            Dictionary<int, double> score = new Dictionary<int, double>();
+            foreach(string termin in termins){
+                foreach(int doc in id){
+                    if (!score.ContainsKey(doc))
+                       
+                        score.Add(doc, invertedIndex[termin].score[doc]);
+                    else
+                        score[doc] += invertedIndex[termin].score[doc];
+                        
+                }
+
+            }
+            string output = null;
+            output = "\n\n" + "Boolean search: ";
+            foreach (int key in score.Keys)
+            {
+                output += "\n Id: " + key + "     Score:" + score[key]; 
+            }
+
+            score = score.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
+
+            output += "\n\n" + "Sorted by score: ";
+
+            foreach (int key in score.Keys)
+            {
+                output += "\n Id: " + key + "     Score:" + score[key];
+            }
+
+            return output;
+        }
+        // проверка наличия терминов, кроме терминов с -, иначе не будут найдены сочетания терминов которые и так не содержали не сущ термин
         public bool Check(string [] s){
             List<string> output = new List<string>(s.Count());
             Regex regex = new Regex(@"(^[-])");
-            Console.WriteLine("Check " + s.Count());
 
             for (int i = 0; i < s.Count(); i++)
             {
@@ -170,7 +249,6 @@ namespace InformationRetrieval.Classes
                 {
                     return false;
                 }
-                Console.WriteLine("Check " + Convert(s[i]));
                
         }
             return true;
@@ -186,7 +264,6 @@ namespace InformationRetrieval.Classes
                 if (invertedIndex.ContainsKey(terms[i]))
                 {
                     d.Add(i, invertedIndex[terms[i]].Keys());
-                    Console.WriteLine("a = " + Convert(terms[i]));
 
                 }
             }
@@ -206,7 +283,6 @@ namespace InformationRetrieval.Classes
             }
             for (int i = 0; i < l.Count(); i++)
             {
-                Console.WriteLine("l = " + l[i]);
 
             }
           

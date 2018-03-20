@@ -130,7 +130,7 @@ namespace InformationRetrieval
             }
             termins.Add(new XAttribute("totalCount", count));
             XDocument saveDoc = new XDocument(termins);
-            File.WriteAllText(_file + "FilesXML/XML_For_HomeWork3Test.xml", saveDoc.ToString());
+            File.WriteAllText(_file + "FilesXML/XML_For_HomeWork5.xml", saveDoc.ToString());
 
             Console.WriteLine("Succsess create InvertedIndex");
 
