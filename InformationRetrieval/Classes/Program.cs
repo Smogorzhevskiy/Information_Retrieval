@@ -40,6 +40,8 @@ namespace InformationRetrieval
 
             invertedIndex.And(_mess);
 
+            LSIClass c = new LSIClass(invertedIndex.FillMatrix(), invertedIndex.q, _mess);
+            c.LatentSemanticIndexing();
 
 
 

@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
 using Iveonik.Stemmers;
+using MathNet.Numerics.LinearAlgebra;
+using MathNet.Numerics.LinearAlgebra.Double;
 
 namespace InformationRetrieval.Classes
 {
@@ -14,6 +16,10 @@ namespace InformationRetrieval.Classes
         string folder = @"/Users/User/Documents/itis/Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/";
         int countDocs;
         int[] countWords;
+        Dictionary<int, List<string>> dic = new Dictionary<int, List<string>>();
+        public double[] q;
+
+
         public SortedDictionary<string, Termin> invertedIndex;
 
         public void CreateInvertedIndex(string stem)
@@ -32,7 +38,7 @@ namespace InformationRetrieval.Classes
         {
             Dictionary<int, Dictionary<string, string>> data = GetDataForIndex(stem);
             countDocs = data.Count();
-            countWords = new int [countDocs];
+            countWords = new int[countDocs];
             foreach (int id in data.Keys)
             {
                 foreach (string type in data[id].Keys)
@@ -74,7 +80,6 @@ namespace InformationRetrieval.Classes
 
             foreach (string term in invertedIndex.Keys)
             {
-
                 int countDocsWhithTermin = invertedIndex[term].Keys().Count();
                 foreach (int id in invertedIndex[term].Keys())
                 {
@@ -84,14 +89,17 @@ namespace InformationRetrieval.Classes
                         countWordsInDoc += invertedIndex[term]._doc[id][type];
                     }
 
-                    double tf = (double)countWordsInDoc/(double)countWords[id];
-                    double idf = Math.Log10(((double)countDocs/(double)countDocsWhithTermin));
+                    double tf = (double)countWordsInDoc / (double)countWords[id];
+
+                    double idf = Math.Log10(((double)countDocs / (double)countDocsWhithTermin));
 
                     double k = 0.0;
-                    if(invertedIndex[term].KeysForType(id).Count() == 2){
+                    if (invertedIndex[term].KeysForType(id).Count() == 2)
+                    {
                         k = 1.0;
                     }
-                    else{
+                    else
+                    {
                         if (invertedIndex[term].KeysForType(id)[0] == "title")
                         {
                             k = 0.6;
@@ -100,12 +108,87 @@ namespace InformationRetrieval.Classes
                             k = 0.4;
                     }
                     invertedIndex[term].score.Add(id, tf * idf * k);
-                    
+
                 }
 
             }
         }
 
+        public double[,] FillMatrix()
+        {
+            //Matrix<double> score = new DenseMatrix(invertedIndex.Count(), countDocs);
+            double[,] score = new double[invertedIndex.Count(), countDocs];
+            int term = 0;
+            foreach (string termin in invertedIndex.Keys)
+            {
+                for (int j = 0; j < countDocs; j++)
+                { score.SetValue(0, term, j); }
+                foreach (int doc in invertedIndex[termin].score.Keys)
+                {
+                    Console.WriteLine("Goal = " + doc);
+                    score.SetValue(invertedIndex[termin].score[doc], term, doc);
+                }
+                term++;
+            }
+            Console.WriteLine("Start");
+
+            for (int i = 0; i < invertedIndex.Count(); i++)
+            {
+                for (int j = 0; j < countDocs; j++)
+                {
+                    double s = (double)score.GetValue(i, j);
+                    Console.Write("[" + s + "]");
+                }
+                Console.WriteLine("/n");
+            }
+            Console.WriteLine("End");
+
+            return score;
+        }
+
+        public void Q()
+        {
+
+            q = new double[invertedIndex.Count()];
+            int index = 0;
+            foreach (string term in invertedIndex.Keys)
+            {
+
+                int countDocsWhithTermin = invertedIndex[term].Keys().Count();
+
+
+                for (int i = 0; i < dic[1].Count(); i++)
+                {
+                    if (term == dic[1][i])
+                    {
+                        double idf = Math.Log10(((double)countDocs / (double)countDocsWhithTermin));
+
+                        int coutWords = 0;
+                        for (int j = 0; j < dic[1].Count(); j++)
+                        {
+                            if (dic[1][i].Equals(dic[1][j]))
+                            {
+                                coutWords++;
+                            }
+                        }
+
+                        double tf = (double)dic[1].Count() / (double)coutWords;
+                        Console.WriteLine("idf = " + idf);
+                        Console.WriteLine("tf = " + tf);
+                        Console.WriteLine("count = " + coutWords);
+                        q.SetValue((double)tf * idf, index);
+                    }
+                    else
+                    {
+                        q.SetValue(0.0, index);
+                    }
+                }
+
+                index++;
+
+            }
+
+        }
 
         // получаю словарь из XML с id, артиклем и названием статьи 
         public Dictionary<int, Dictionary<string, string>> GetDataForIndex(string stem)
@@ -144,12 +227,12 @@ namespace InformationRetrieval.Classes
         }
 
         // булевый поиск с и
-        public void And(string input){
-            string output = null; 
+        public void And(string input)
+        {
+            string output = null;
             string[] s = input.Split(' ');
             if (Check(s))
             {
-                Dictionary<int, List<string>> dic = new Dictionary<int, List<string>>();
                 dic = SplitItems(s);
                 List<int> a = new List<int>();
                 if (dic.ContainsKey(1))
@@ -159,9 +242,12 @@ namespace InformationRetrieval.Classes
                 // если нет слов помимо орицательных, то получаю все термины
                 else
                 {
-                    foreach (string key in invertedIndex.Keys){
-                        foreach(int i in invertedIndex[key].Keys()){
-                            if (!a.Contains(i)){
+                    foreach (string key in invertedIndex.Keys)
+                    {
+                        foreach (int i in invertedIndex[key].Keys())
+                        {
+                            if (!a.Contains(i))
+                            {
                                 a.Add(i);
                             }
 
@@ -185,7 +271,7 @@ namespace InformationRetrieval.Classes
                 {
                     output += n[i] + " ";
                 }
-                if (output ==null)
+                if (output == null)
                 {
                     File.WriteAllText(folder + "FilesXML/HomeWork5.txt", input + " :");
                 }
@@ -193,6 +279,7 @@ namespace InformationRetrieval.Classes
                 {
                     //File.WriteAllText(folder + "FilesXML/HomeWork4.txt", input + " : " + output);
                     string score = SortedByScore(dic[1], n);
+                    Q();
                     output += "\n" + score;
                     File.WriteAllText(folder + "FilesXML/HomeWork5.txt", input + " : " + output);
 
@@ -200,23 +287,26 @@ namespace InformationRetrieval.Classes
 
 
             }
-            else 
+            else
             {
-                File.WriteAllText(folder + "FilesXML/HomeWork5.txt",input + " : ");
+                File.WriteAllText(folder + "FilesXML/HomeWork5.txt", input + " : ");
 
             }
         }
 
-        public string SortedByScore(List<string> termins, List<int> id){
+        public string SortedByScore(List<string> termins, List<int> id)
+        {
             Dictionary<int, double> score = new Dictionary<int, double>();
-            foreach(string termin in termins){
-                foreach(int doc in id){
+            foreach (string termin in termins)
+            {
+                foreach (int doc in id)
+                {
                     if (!score.ContainsKey(doc))
-                       
+
                         score.Add(doc, invertedIndex[termin].score[doc]);
                     else
                         score[doc] += invertedIndex[termin].score[doc];
-                        
+
                 }
 
             }
@@ -224,7 +314,7 @@ namespace InformationRetrieval.Classes
             output = "\n\n" + "Boolean search: ";
             foreach (int key in score.Keys)
             {
-                output += "\n Id: " + key + "     Score:" + score[key]; 
+                output += "\n Id: " + key + "     Score:" + score[key];
             }
 
             score = score.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
@@ -238,8 +328,11 @@ namespace InformationRetrieval.Classes
 
             return output;
         }
+
+
         // проверка наличия терминов, кроме терминов с -, иначе не будут найдены сочетания терминов которые и так не содержали не сущ термин
-        public bool Check(string [] s){
+        public bool Check(string[] s)
+        {
             List<string> output = new List<string>(s.Count());
             Regex regex = new Regex(@"(^[-])");
 
@@ -249,14 +342,15 @@ namespace InformationRetrieval.Classes
                 {
                     return false;
                 }
-               
-        }
+
+            }
             return true;
 
         }
 
         // получить документы 
-        public Dictionary<int, List<int>> GetIDs(List<string> terms){
+        public Dictionary<int, List<int>> GetIDs(List<string> terms)
+        {
             Dictionary<int, List<int>> d = new Dictionary<int, List<int>>();
             for (int i = 0; i < terms.Count(); i++)
             {
@@ -285,15 +379,18 @@ namespace InformationRetrieval.Classes
             {
 
             }
-          
+
             return l;
         }
 
 
-        public List<int> Intersect(List<int> a, List<int> b){
+        public List<int> Intersect(List<int> a, List<int> b)
+        {
             List<int> output = new List<int>();
-            for (int i = 0; i < a.Count(); i++){
-                for (int j = 0; j < b.Count(); j++){
+            for (int i = 0; i < a.Count(); i++)
+            {
+                for (int j = 0; j < b.Count(); j++)
+                {
                     if (a[i] == b[j])
                         output.Add(a[i]);
                 }
@@ -305,7 +402,7 @@ namespace InformationRetrieval.Classes
         // удаление документов с -
         public List<int> DeletNot(List<int> a, Dictionary<int, List<int>> b)
         {
-           
+
             List<int> output = new List<int>();
             output = a;
             for (int i = 0; i < a.Count(); i++)
@@ -326,22 +423,23 @@ namespace InformationRetrieval.Classes
 
 
             return output;
-       
+
         }
 
         // разделить термины на термины с - и без 
-        public Dictionary<int, List<string>> SplitItems(string [] list)
+        public Dictionary<int, List<string>> SplitItems(string[] list)
         {
             Dictionary<int, List<string>> output = new Dictionary<int, List<string>>();
             Regex regex = new Regex(@"(^[-])");
             for (int i = 0; i < list.Count(); i++)
             {
-                
+
                 if (regex.IsMatch(list[i]))
                 {
 
-                    
-                    if (!output.ContainsKey(0)){
+
+                    if (!output.ContainsKey(0))
+                    {
                         output.Add(0, new List<string>());
                     }
                     string n = regex.Replace(list[i], "");
@@ -362,12 +460,14 @@ namespace InformationRetrieval.Classes
         }
 
         // конвертировать в зависимости от стеммера
-        public string Convert(string input){
+        public string Convert(string input)
+        {
 
-           string output = null;
-            if (_stem == "porter"){
+            string output = null;
+            if (_stem == "porter")
+            {
                 RussianStemmer stemmer = new RussianStemmer();
-                    output = stemmer.Stem(input);
+                output = stemmer.Stem(input);
                 return output;
             }
             if (_stem == "mystem")
