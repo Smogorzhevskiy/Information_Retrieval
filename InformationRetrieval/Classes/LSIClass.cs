@@ -17,6 +17,7 @@ namespace InformationRetrieval.Classes
         static double[] q = new double[] { };
         string folder = @"/Users/User/Documents/itis/Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/";
         string _mess;
+        Matrix<double> mass;
 
         public LSIClass(double[,] B, double[] Q, string mess)
         {
@@ -30,8 +31,8 @@ namespace InformationRetrieval.Classes
         {
 
 
-            var m = DenseMatrix.OfArray(A);
-            var svd = m.Svd(true);
+            mass = DenseMatrix.OfArray(A);
+            var svd = mass.Svd(true);
             Matrix<double> U = svd.U;
             Matrix<double> S = svd.W;
             Matrix<double> V = svd.VT;
@@ -129,7 +130,19 @@ namespace InformationRetrieval.Classes
 
             sim = sim.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
 
-            output += "LSA for ( " + _mess + " ): ";
+            output += "LSA for ( " + _mess + " ): \n";
+            output += "A : \n";
+            for (int i = 0; i < mass.RowCount; i++)
+            {
+                for (int j = 0; j < mass.ColumnCount; j++)
+                {
+                    if (mass[i, j].Equals(0))
+                        output += mass[i, j] + "           ";
+                    else
+                    output += Math.Round(mass[i, j], 3) + "       ";
+                }
+                output += "\n";
+            }
 
             foreach (int key in sim.Keys)
             {

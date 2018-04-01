@@ -8,7 +8,7 @@
       <File FileName="InformationRetrieval/Classes/MyStem.cs" Line="24" Column="1" />
       <File FileName="InformationRetrieval/Classes/InvertedIndex.cs" Line="197" Column="1" />
       <File FileName="InformationRetrieval/Classes/Termin.cs" Line="63" Column="74" />
-      <File FileName="InformationRetrieval/Classes/LSIClass.cs" Line="133" Column="13" />
+      <File FileName="InformationRetrieval/Classes/LSIClass.cs" Line="140" Column="60" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
