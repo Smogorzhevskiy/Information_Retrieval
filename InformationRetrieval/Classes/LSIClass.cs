@@ -17,13 +17,15 @@ namespace InformationRetrieval.Classes
         static double[] q = new double[] { };
         string folder = @"/Users/User/Documents/itis/Basic_Of_Inf_retrieval/Inf_retrieval/InformationRetrieval/InformationRetrieval/";
         string _mess;
+        List<int> ids;
         Matrix<double> mass;
 
-        public LSIClass(double[,] B, double[] Q, string mess)
+        public LSIClass(double[,] B, double[] Q, string mess, List<int> n)
         {
             A = B;
             q = Q;
             _mess = mess;
+            ids = n;
         }
 
 
@@ -126,9 +128,13 @@ namespace InformationRetrieval.Classes
         public string SortedByLSA(Dictionary<int, double> sim)
         {
             string output = null;
-
-
-            sim = sim.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
+            Dictionary<int, double> filterSim = new Dictionary<int, double>();
+            for (int i = 0; i < ids.Count(); i++){
+                if (sim.ContainsKey(ids[i])){
+                    filterSim.Add(ids[i], sim[i]);
+                }
+            }
+            filterSim = filterSim.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
 
             output += "LSA for ( " + _mess + " ): \n";
             output += "A : \n";
@@ -144,9 +150,9 @@ namespace InformationRetrieval.Classes
                 output += "\n";
             }
 
-            foreach (int key in sim.Keys)
+            foreach (int key in filterSim.Keys)
             {
-                output += "\n Id: " + key + "     sim:" + sim[key];
+                output += "\n Id: " + key + "     sim:" + filterSim[key];
             }
 
             return output;

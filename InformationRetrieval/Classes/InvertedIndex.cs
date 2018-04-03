@@ -18,6 +18,7 @@ namespace InformationRetrieval.Classes
         int[] countWords;
         Dictionary<int, List<string>> dic = new Dictionary<int, List<string>>();
         public double[] q;
+        public List<int> n;
 
 
         public SortedDictionary<string, Termin> invertedIndex;
@@ -256,7 +257,7 @@ namespace InformationRetrieval.Classes
                     }
 
                 }
-                List<int> n = new List<int>();
+                n = new List<int>();
 
                 if (dic.ContainsKey(0))
                 {
